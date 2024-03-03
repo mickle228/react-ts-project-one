@@ -3,8 +3,7 @@ import {RouterProvider} from "react-router-dom";
 
 import './index.css';
 import {router} from "./router";
-import {ThemeProvider} from "./hoc/ThemeProvider";
-import {SearchProvider} from "./hoc/SearchProvider";
+import {SearchProvider, ThemeProvider} from "./hoc";
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
